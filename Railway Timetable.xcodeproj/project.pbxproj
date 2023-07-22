@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4846453E2A6C088C00443402 /* Railway_TimetableApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4846453D2A6C088C00443402 /* Railway_TimetableApp.swift */; };
+		484645402A6C088C00443402 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4846453F2A6C088C00443402 /* ContentView.swift */; };
+		484645422A6C088D00443402 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 484645412A6C088D00443402 /* Assets.xcassets */; };
+		484645452A6C088D00443402 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 484645442A6C088D00443402 /* Preview Assets.xcassets */; };
+		4846454F2A6C088D00443402 /* Railway_TimetableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4846454E2A6C088D00443402 /* Railway_TimetableTests.swift */; };
+		484645592A6C088D00443402 /* Railway_TimetableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484645582A6C088D00443402 /* Railway_TimetableUITests.swift */; };
+		4846455B2A6C088D00443402 /* Railway_TimetableUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4846455A2A6C088D00443402 /* Railway_TimetableUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4846454B2A6C088D00443402 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 484645322A6C088C00443402 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 484645392A6C088C00443402;
+			remoteInfo = "Railway Timetable";
+		};
+		484645552A6C088D00443402 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 484645322A6C088C00443402 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 484645392A6C088C00443402;
+			remoteInfo = "Railway Timetable";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4846453A2A6C088C00443402 /* Railway Timetable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Railway Timetable.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4846453D2A6C088C00443402 /* Railway_TimetableApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Railway_TimetableApp.swift; sourceTree = "<group>"; };
+		4846453F2A6C088C00443402 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		484645412A6C088D00443402 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		484645442A6C088D00443402 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4846454A2A6C088D00443402 /* Railway TimetableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Railway TimetableTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4846454E2A6C088D00443402 /* Railway_TimetableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Railway_TimetableTests.swift; sourceTree = "<group>"; };
+		484645542A6C088D00443402 /* Railway TimetableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Railway TimetableUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		484645582A6C088D00443402 /* Railway_TimetableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Railway_TimetableUITests.swift; sourceTree = "<group>"; };
+		4846455A2A6C088D00443402 /* Railway_TimetableUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Railway_TimetableUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		484645372A6C088C00443402 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		484645472A6C088D00443402 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		484645512A6C088D00443402 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		484645312A6C088C00443402 = {
+			isa = PBXGroup;
+			children = (
+				4846453C2A6C088C00443402 /* Railway Timetable */,
+				4846454D2A6C088D00443402 /* Railway TimetableTests */,
+				484645572A6C088D00443402 /* Railway TimetableUITests */,
+				4846453B2A6C088C00443402 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4846453B2A6C088C00443402 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4846453A2A6C088C00443402 /* Railway Timetable.app */,
+				4846454A2A6C088D00443402 /* Railway TimetableTests.xctest */,
+				484645542A6C088D00443402 /* Railway TimetableUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4846453C2A6C088C00443402 /* Railway Timetable */ = {
+			isa = PBXGroup;
+			children = (
+				4846453D2A6C088C00443402 /* Railway_TimetableApp.swift */,
+				4846453F2A6C088C00443402 /* ContentView.swift */,
+				484645412A6C088D00443402 /* Assets.xcassets */,
+				484645432A6C088D00443402 /* Preview Content */,
+			);
+			path = "Railway Timetable";
+			sourceTree = "<group>";
+		};
+		484645432A6C088D00443402 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				484645442A6C088D00443402 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4846454D2A6C088D00443402 /* Railway TimetableTests */ = {
+			isa = PBXGroup;
+			children = (
+				4846454E2A6C088D00443402 /* Railway_TimetableTests.swift */,
+			);
+			path = "Railway TimetableTests";
+			sourceTree = "<group>";
+		};
+		484645572A6C088D00443402 /* Railway TimetableUITests */ = {
+			isa = PBXGroup;
+			children = (
+				484645582A6C088D00443402 /* Railway_TimetableUITests.swift */,
+				4846455A2A6C088D00443402 /* Railway_TimetableUITestsLaunchTests.swift */,
+			);
+			path = "Railway TimetableUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		484645392A6C088C00443402 /* Railway Timetable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4846455E2A6C088D00443402 /* Build configuration list for PBXNativeTarget "Railway Timetable" */;
+			buildPhases = (
+				484645362A6C088C00443402 /* Sources */,
+				484645372A6C088C00443402 /* Frameworks */,
+				484645382A6C088C00443402 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Railway Timetable";
+			productName = "Railway Timetable";
+			productReference = 4846453A2A6C088C00443402 /* Railway Timetable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		484645492A6C088D00443402 /* Railway TimetableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 484645612A6C088D00443402 /* Build configuration list for PBXNativeTarget "Railway TimetableTests" */;
+			buildPhases = (
+				484645462A6C088D00443402 /* Sources */,
+				484645472A6C088D00443402 /* Frameworks */,
+				484645482A6C088D00443402 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4846454C2A6C088D00443402 /* PBXTargetDependency */,
+			);
+			name = "Railway TimetableTests";
+			productName = "Railway TimetableTests";
+			productReference = 4846454A2A6C088D00443402 /* Railway TimetableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		484645532A6C088D00443402 /* Railway TimetableUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 484645642A6C088D00443402 /* Build configuration list for PBXNativeTarget "Railway TimetableUITests" */;
+			buildPhases = (
+				484645502A6C088D00443402 /* Sources */,
+				484645512A6C088D00443402 /* Frameworks */,
+				484645522A6C088D00443402 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				484645562A6C088D00443402 /* PBXTargetDependency */,
+			);
+			name = "Railway TimetableUITests";
+			productName = "Railway TimetableUITests";
+			productReference = 484645542A6C088D00443402 /* Railway TimetableUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		484645322A6C088C00443402 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					484645392A6C088C00443402 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					484645492A6C088D00443402 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 484645392A6C088C00443402;
+					};
+					484645532A6C088D00443402 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 484645392A6C088C00443402;
+					};
+				};
+			};
+			buildConfigurationList = 484645352A6C088C00443402 /* Build configuration list for PBXProject "Railway Timetable" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 484645312A6C088C00443402;
+			productRefGroup = 4846453B2A6C088C00443402 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				484645392A6C088C00443402 /* Railway Timetable */,
+				484645492A6C088D00443402 /* Railway TimetableTests */,
+				484645532A6C088D00443402 /* Railway TimetableUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		484645382A6C088C00443402 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				484645452A6C088D00443402 /* Preview Assets.xcassets in Resources */,
+				484645422A6C088D00443402 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		484645482A6C088D00443402 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		484645522A6C088D00443402 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		484645362A6C088C00443402 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				484645402A6C088C00443402 /* ContentView.swift in Sources */,
+				4846453E2A6C088C00443402 /* Railway_TimetableApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		484645462A6C088D00443402 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4846454F2A6C088D00443402 /* Railway_TimetableTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		484645502A6C088D00443402 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4846455B2A6C088D00443402 /* Railway_TimetableUITestsLaunchTests.swift in Sources */,
+				484645592A6C088D00443402 /* Railway_TimetableUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4846454C2A6C088D00443402 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 484645392A6C088C00443402 /* Railway Timetable */;
+			targetProxy = 4846454B2A6C088D00443402 /* PBXContainerItemProxy */;
+		};
+		484645562A6C088D00443402 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 484645392A6C088C00443402 /* Railway Timetable */;
+			targetProxy = 484645552A6C088D00443402 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4846455C2A6C088D00443402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4846455D2A6C088D00443402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4846455F2A6C088D00443402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Railway Timetable/Preview Content\"";
+				DEVELOPMENT_TEAM = 3R9N29H542;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.dnybluesky007.Railway-Timetable";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		484645602A6C088D00443402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Railway Timetable/Preview Content\"";
+				DEVELOPMENT_TEAM = 3R9N29H542;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.dnybluesky007.Railway-Timetable";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		484645622A6C088D00443402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3R9N29H542;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.dnybluesky007.Railway-TimetableTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Railway Timetable.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Railway Timetable";
+			};
+			name = Debug;
+		};
+		484645632A6C088D00443402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3R9N29H542;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.dnybluesky007.Railway-TimetableTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Railway Timetable.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Railway Timetable";
+			};
+			name = Release;
+		};
+		484645652A6C088D00443402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3R9N29H542;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.dnybluesky007.Railway-TimetableUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Railway Timetable";
+			};
+			name = Debug;
+		};
+		484645662A6C088D00443402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3R9N29H542;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.dnybluesky007.Railway-TimetableUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Railway Timetable";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		484645352A6C088C00443402 /* Build configuration list for PBXProject "Railway Timetable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4846455C2A6C088D00443402 /* Debug */,
+				4846455D2A6C088D00443402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4846455E2A6C088D00443402 /* Build configuration list for PBXNativeTarget "Railway Timetable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4846455F2A6C088D00443402 /* Debug */,
+				484645602A6C088D00443402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		484645612A6C088D00443402 /* Build configuration list for PBXNativeTarget "Railway TimetableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				484645622A6C088D00443402 /* Debug */,
+				484645632A6C088D00443402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		484645642A6C088D00443402 /* Build configuration list for PBXNativeTarget "Railway TimetableUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				484645652A6C088D00443402 /* Debug */,
+				484645662A6C088D00443402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 484645322A6C088C00443402 /* Project object */;
+}
