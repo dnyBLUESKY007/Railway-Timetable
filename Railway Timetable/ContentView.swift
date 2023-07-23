@@ -15,6 +15,7 @@ struct ContentView: View {
 //                .foregroundStyle(.tint)
             Text("Hello, world!")
             Text("Test commit without push.")
+            Text("Test another commit without push.")
         }
         .padding()
     }
