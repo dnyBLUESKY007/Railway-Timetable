@@ -1,0 +1,132 @@
+[
+    {
+        "id": 410101,
+        "city": "郑州",
+        "name": "1",
+        "color": "#d20200",
+        "isNumber": true,
+        "isLoop": false,
+        "stops": [
+        ]
+    },
+    {
+        "id": 410102,
+        "city": "郑州",
+        "name": "2",
+        "color": "#f5c503",
+        "isNumber": true,
+        "isLoop": false,
+        "stops": [
+        ]
+    },
+    {
+        "id": 410103,
+        "city": "郑州",
+        "name": "3",
+        "color": "#f29839",
+        "isNumber": true,
+        "isLoop": false,
+        "stops": [
+        ]
+    },
+    {
+        "id": 410104,
+        "city": "郑州",
+        "name": "4",
+        "color": "#14a0e9",
+        "isNumber": true,
+        "isLoop": false,
+        "stops": [
+        ]
+    },
+    {
+        "id": 410105,
+        "city": "郑州",
+        "name": "5",
+        "color": "#0a6934",
+        "isNumber": true,
+        "isLoop": true,
+        "stops": [
+        ]
+    },
+    {
+        "id": 410106,
+        "city": "郑州",
+        "name": "6",
+        "color": "#900a85",
+        "isNumber": true,
+        "isLoop": false,
+        "stops": [
+        ]
+    },
+    {
+        "id": 410107,
+        "city": "郑州",
+        "name": "7",
+        "color": "#d59f54",
+        "isNumber": true,
+        "isLoop": false,
+        "stops": [
+        ]
+    },
+    {
+        "id": 410108,
+        "city": "郑州",
+        "name": "8",
+        "color": "#e4e388",
+        "isNumber": true,
+        "isLoop": false,
+        "stops": [
+        ]
+    },
+    {
+        "id": 410109,
+        "city": "郑州",
+        "name": "城郊线 CHENGJIAO Line",
+        "color": "#a3ae75",
+        "isNumber": false,
+        "isLoop": false,
+        "stops": [
+        ]
+    },
+    {
+        "id": 410110,
+        "city": "郑州",
+        "name": "10",
+        "color": "#bc5b53",
+        "isNumber": true,
+        "isLoop": false,
+        "stops": [
+        ]
+    },
+    {
+        "id": 410112,
+        "city": "郑州",
+        "name": "12",
+        "color": "#175fa3",
+        "isNumber": true,
+        "isLoop": false,
+        "stops": [
+        ]
+    },
+    {
+        "id": 410114,
+        "city": "郑州",
+        "name": "14",
+        "color": "#b189be",
+        "isNumber": true,
+        "isLoop": false,
+        "stops": [
+        ]
+    },
+    {
+        "id": 410151,
+        "city": "郑州",
+        "name": "郑许线 ZHENGXU Line",
+        "color": "#0d4256",
+        "isNumber": false,
+        "isLoop": false,
+        "stops": [
+        ]
+    }
+]

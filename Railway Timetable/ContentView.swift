@@ -9,18 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-//            Image(systemName: "globe")
-//                .imageScale(.large)
-//                .foregroundStyle(.tint)
-            Text("Hello, world!")
-            Text("Test commit without push.")
-            Text("Test another commit without push.")
-        }
-        .padding()
+        LineList()
     }
 }
 
 #Preview {
     ContentView()
+        .environmentObject(ModelData())
 }

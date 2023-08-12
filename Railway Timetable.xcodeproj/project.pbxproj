@@ -14,6 +14,12 @@
 		4846454F2A6C088D00443402 /* Railway_TimetableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4846454E2A6C088D00443402 /* Railway_TimetableTests.swift */; };
 		484645592A6C088D00443402 /* Railway_TimetableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484645582A6C088D00443402 /* Railway_TimetableUITests.swift */; };
 		4846455B2A6C088D00443402 /* Railway_TimetableUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4846455A2A6C088D00443402 /* Railway_TimetableUITestsLaunchTests.swift */; };
+		48E16A5F2A87BF690007210B /* RailLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E16A5E2A87BF690007210B /* RailLine.swift */; };
+		48E16A622A87C1130007210B /* LineRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E16A612A87C1130007210B /* LineRow.swift */; };
+		48E16A652A87CB2C0007210B /* lineData.json in Resources */ = {isa = PBXBuildFile; fileRef = 48E16A642A87CB2C0007210B /* lineData.json */; };
+		48E16A672A87CF750007210B /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E16A662A87CF750007210B /* ModelData.swift */; };
+		48E16A692A87E4B00007210B /* LineIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E16A682A87E4B00007210B /* LineIcon.swift */; };
+		48E16A6B2A8804140007210B /* LineList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E16A6A2A8804140007210B /* LineList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		484645542A6C088D00443402 /* Railway TimetableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Railway TimetableUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		484645582A6C088D00443402 /* Railway_TimetableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Railway_TimetableUITests.swift; sourceTree = "<group>"; };
 		4846455A2A6C088D00443402 /* Railway_TimetableUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Railway_TimetableUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		48E16A5E2A87BF690007210B /* RailLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RailLine.swift; sourceTree = "<group>"; };
+		48E16A612A87C1130007210B /* LineRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineRow.swift; sourceTree = "<group>"; };
+		48E16A642A87CB2C0007210B /* lineData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = lineData.json; sourceTree = "<group>"; };
+		48E16A662A87CF750007210B /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		48E16A682A87E4B00007210B /* LineIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineIcon.swift; sourceTree = "<group>"; };
+		48E16A6A2A8804140007210B /* LineList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +106,9 @@
 		4846453C2A6C088C00443402 /* Railway Timetable */ = {
 			isa = PBXGroup;
 			children = (
+				48E16A632A87CADF0007210B /* Resources */,
+				48E16A602A87C1040007210B /* Views */,
+				48E16A5D2A87BF360007210B /* Model */,
 				4846453D2A6C088C00443402 /* Railway_TimetableApp.swift */,
 				4846453F2A6C088C00443402 /* ContentView.swift */,
 				484645412A6C088D00443402 /* Assets.xcassets */,
@@ -125,6 +140,33 @@
 				4846455A2A6C088D00443402 /* Railway_TimetableUITestsLaunchTests.swift */,
 			);
 			path = "Railway TimetableUITests";
+			sourceTree = "<group>";
+		};
+		48E16A5D2A87BF360007210B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				48E16A5E2A87BF690007210B /* RailLine.swift */,
+				48E16A662A87CF750007210B /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		48E16A602A87C1040007210B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				48E16A612A87C1130007210B /* LineRow.swift */,
+				48E16A682A87E4B00007210B /* LineIcon.swift */,
+				48E16A6A2A8804140007210B /* LineList.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		48E16A632A87CADF0007210B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				48E16A642A87CB2C0007210B /* lineData.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +275,7 @@
 			files = (
 				484645452A6C088D00443402 /* Preview Assets.xcassets in Resources */,
 				484645422A6C088D00443402 /* Assets.xcassets in Resources */,
+				48E16A652A87CB2C0007210B /* lineData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +300,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48E16A622A87C1130007210B /* LineRow.swift in Sources */,
 				484645402A6C088C00443402 /* ContentView.swift in Sources */,
+				48E16A692A87E4B00007210B /* LineIcon.swift in Sources */,
+				48E16A672A87CF750007210B /* ModelData.swift in Sources */,
+				48E16A6B2A8804140007210B /* LineList.swift in Sources */,
 				4846453E2A6C088C00443402 /* Railway_TimetableApp.swift in Sources */,
+				48E16A5F2A87BF690007210B /* RailLine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
