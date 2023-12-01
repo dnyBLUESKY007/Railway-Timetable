@@ -38,20 +38,10 @@ struct LineRow: View {
     var line: RailLine
     
     var body: some View {
-        let spaceIndex = line.name.firstIndex(of: " ") ?? line.name.startIndex
-        let textString: String = String("\(line.isNumber ? line.name : String(line.name[spaceIndex..<line.name.endIndex]))")
-        VStack {
-            HStack {
-                LineIcon(name: line.name, color: Color(hex: line.color), isNumber: line.isNumber)
-                VStack(alignment: .leading) {
-                    Text("\(line.isNumber ? "号线 Line "+line.name : textString)")
-                        .bold()
-                    Text("description")
-                        .font(.caption)
-                        .foregroundColor(.secondary)
-                }
-            }
-        }
+//        HStack {
+            LineIcon(name: line.name, color: Color(hex: line.color), isNumber: line.isNumber)
+//            Text("description")
+//        }
     }
 }
 
